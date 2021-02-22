@@ -7,9 +7,9 @@ if (langCode === 'de') {
     console.log('Hello World translated in Spanish is: Hola Mundo.');
 } else if (langCode === 'fr') {
     console.log('Hello World translated in French is: Bonjour le monde.');
-} else if (langCode === 'en') 
+} else if (langCode === 'en') {
     console.log('Hello World translated in English is: Hello World.');
-else {
+} else {
     console.log('Hello World translated in English is: Hello World.');
 }
 

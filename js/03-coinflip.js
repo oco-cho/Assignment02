@@ -2,7 +2,7 @@
 
 let coinFlip = Math.round(Math.random());
 let choice = prompt('Select heads or tails');
-if (coinFlip > .5) {
+if (coinFlip > 0) {
     // coinFlip = tails;
     if (choice === 'heads') {
         alert('The flip was tails but you chose heads...you lose!');
@@ -11,7 +11,7 @@ if (coinFlip > .5) {
         } else {
             alert(`${choice} is invalid. Refresh the page to try again.`);
         }  
-} else if (coinFlip <= .5) {
+} else if (coinFlip < 1) {
     // coinFlip = heads;
     if (choice === 'heads') {
         alert('The flip was heads and you chose heads...you win!');
